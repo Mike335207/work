@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-25T06:46:06.315Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="Ii3lqM3QyxUFrQYbZ6YK" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T06:49:23.142Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="XGeFpTwQMHxlXr9RgRIF" version="12.2.9" type="github" pages="1">
   <diagram id="ckMNo31Ma1tLkW73L81t" name="Page-1">
     <mxGraphModel dx="1355" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="F92IRK9Jc3nQpXJkIrV8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="F92IRK9Jc3nQpXJkIrV8-19" target="F92IRK9Jc3nQpXJkIrV8-20" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="F92IRK9Jc3nQpXJkIrV8-19" value="&lt;div&gt;&lt;b&gt;Get data:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;BallTime&lt;/div&gt;&lt;div&gt;BallObservations&lt;/div&gt;&lt;div&gt;InitBallParameters&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="F92IRK9Jc3nQpXJkIrV8-19" value="&lt;div&gt;&lt;b&gt;Get data:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;BallTime {valid balls timestamps}&lt;br&gt;&lt;/div&gt;&lt;div&gt;BallObservations&lt;/div&gt;&lt;div&gt;InitBallParameters&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="610" width="200" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="F92IRK9Jc3nQpXJkIrV8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="F92IRK9Jc3nQpXJkIrV8-20" target="F92IRK9Jc3nQpXJkIrV8-22" edge="1">
@@ -124,17 +124,14 @@
         <mxCell id="g0T17iMjt1E9_Oc09vY_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="g0T17iMjt1E9_Oc09vY_-1" target="g0T17iMjt1E9_Oc09vY_-1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="g0T17iMjt1E9_Oc09vY_-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="1250" as="sourcePoint"/>
-            <mxPoint x="60" y="1200" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="g0T17iMjt1E9_Oc09vY_-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-mobile-icon-kit/64/Exception.png" vertex="1" parent="1">
           <mxGeometry x="430" y="475" width="60" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="g0T17iMjt1E9_Oc09vY_-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-mobile-icon-kit/64/Exception.png" vertex="1" parent="1">
           <mxGeometry x="430" y="550" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="g0T17iMjt1E9_Oc09vY_-9" value="&lt;div&gt;to perform calculation, at least 4 balls + &lt;br&gt;&lt;/div&gt;&lt;div&gt;initial ball are needed&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="260" y="703" width="290" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
