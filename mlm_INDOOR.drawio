@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-05T14:32:31.457Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 YaBrowser/20.2.1.248 Yowser/2.5 Safari/537.36" etag="cggler9up0_9ST1GutHM" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-05T14:51:10.982Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 YaBrowser/20.2.1.248 Yowser/2.5 Safari/537.36" etag="OESsd51ceSt5mETWlAY0" version="12.6.5" type="github">
   <diagram id="Cod3GerfNrNgUSHNOhmU" name="Page-1">
     <mxGraphModel dx="2235" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
         <mxCell id="u7wA1UhLNrB0_62OL5z6-13" value="Radar triggered" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="340" width="100" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-15" value="Find ball candidates in 10-19 frames&lt;br&gt;&amp;nbsp;after trigger received,&lt;br&gt;5 ball candidates with highest score per frame&lt;br&gt;45 candidates in total" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="u7wA1UhLNrB0_62OL5z6-15" value="Find ball candidates in 8-16 frames&lt;br&gt;&amp;nbsp;after trigger received,&lt;br&gt;5 ball candidates with highest score per frame&lt;br&gt;45 candidates in total" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="490" width="260" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="u7wA1UhLNrB0_62OL5z6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7wA1UhLNrB0_62OL5z6-16" target="u7wA1UhLNrB0_62OL5z6-21">
