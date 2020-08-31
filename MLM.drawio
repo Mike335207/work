@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T07:50:24.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="J0GJc82DfeW4qcYFvZ-1" version="13.6.5" type="github"><diagram id="A9fwPorAj4-k2zNvB-i8" name="Page-1">7Vpbc9o4FP41zGQfkvEdeAwk7aZLu5kys9s8CltgdWXLI8sB+utXwvJVhpoGY2ibB4KOLpbOd75zkRmY02DznoLI/0g8iAeG5m0G5sPAMMb2kH8KwTYVOJqWClYUealILwRz9A1KYTYsQR6MKwMZIZihqCp0SRhCl1VkgFKyrg5bElx9agRWUBHMXYBV6b/IY34qHRnDQv4nRCs/e7LujNOeAGSD5UliH3hkXRKZjwNzSglh6bdgM4VY6C7TSzrv3Z7efGMUhqzNhA/R69Mn568PsbN6+YT8L4l779/KzcZsmx0Yevz8skko88mKhAA/FtIJJUnoQbGqxlvFmBkhERfqXPgVMraVYIKEES7yWYBlL9wg9kVMv7Nl66XU87CRK+8aW9lI9yk2t/f4UhSThLrwwJkzMwJ0BdmBcWYOEjduSALI6JbPoxADhl6r+wDSzFb5uAIJ/kWCcQQwct1XgBP5pKcQMS6Z+4Q9xgxx+yJ0YPDVNUyAJ3pgGBMaDwwHBByISfr5GXiACgICBhSwCyiF9tc+YnAegZ321pzOVdiWCOMpwfypYq65XELHdbk8ZpT8B0s93nC80ArQXiFlcHMYNlXNcsJIske6Dz1bYV2QUc8Y5peI6GhdAaMrWrxQynAN021pkmi+lPuKabtWB1QzW1LN6pNqpkK1Z0iXhAZcOAG7+e9Q6KFwdVr+jFzYzJ/FyLbsbvhjaOO++TO8Fv6ckAdvtW859ZmgkBXY6lYVXHNcAy3lnZxVwy3fxo9DaSnEmZIgShiUYer66WJm2WpvdLkatlxAtLFbRps9JnCeaGMrpJml6ds/vNAhteTtGdBYsCkXh4tY/HtP8PIzjBPM7r7GJLz+vM7qm2e6mgWozAu9e1FS8lZIQsE0D8R+ruaSSoX8GTAGabiTGJqZKzQrI40jjF9VY0lRdoOeMtlbI4xTTx9q+k85qUQYZSHD+s5CHYcqXY1Vv+FV4DWHJ4JXWahreEcKvHP+SLFDXikLDxpAECe0KYfnPoxV4a06PmkLZS8pRQCjlTAAl6MJuXwiPCJyAb6XHQHyvF1EbvLA1Sh9ApdaB0Eftcz1jc6c6rgBFp6D/MqomE7LUNcZKtnCLX2hi0EcozQh4JRSxeXEcU8SmPftSQKbE848x+z8RlDa6fczx1Gf7toY76lOjnbXtYVyGz2Tu86OXrLAe7wiAs4NdBOGREorfURD9TMDC4irhtee9BTG6BtY7NYTZhSJQ+6ObU8G9sMh0st3DHLyIGdo2eQOMG6vi9DuNH08riBya7zNYrIhZLmMYTcYqhnV/msz7ebvhHmE0D8UQC//TsC6tFrFUGvIQvXiNQECuAmEhTjUlFD4cXZaGM5SMdZhyHXeGw6m1eiefl/ONBrtsGWMNfbE2PNcz2TbPPvbgF44ZPR+v2na18KhU3LhrSbenNbZ5vjOKf0Nq9nimWtyQ63JW0WpG17H3T7MxEajiBLg+idOGvph2qh3pv1o2fcTxJ62bwZS799XfWfVL0nr7/Pa1ndWz/Wd6RwRRLWbp/BaSwPHurDSwDwmfbnygqCu/C5/G8SbxS/1UpoUP3c0H/8H</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-31T07:51:39.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="B1PspL9iocvBvTK_2kia" version="13.6.5" type="github">
+  <diagram id="A9fwPorAj4-k2zNvB-i8" name="Page-1">
+    <mxGraphModel dx="1148" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JpvIN6KJs6gYNihXucAh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-1" target="JpvIN6KJs6gYNihXucAh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-1" value="Init ShotEstimator, load Sensors&amp;amp;Radar data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="80" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-3" target="JpvIN6KJs6gYNihXucAh-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-3" value="Perform Ball Finding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-4" value="Compute Shot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-5" target="JpvIN6KJs6gYNihXucAh-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-5" value="Load Video&amp;amp;Parse &amp;nbsp;GolfResult.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="370" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-18" value="Start time measuring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="189" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-19" value="Stop time measuring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-20" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-19" target="JpvIN6KJs6gYNihXucAh-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="300" as="sourcePoint" />
+            <mxPoint x="290" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-21" value="Algo execution time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JpvIN6KJs6gYNihXucAh-20" vertex="1" connectable="0">
+          <mxGeometry x="0.0199" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-24" value="Perform Ball Finding (Outdoor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-25" value="Perform Initial Ball Finding by CoreML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-27" target="JpvIN6KJs6gYNihXucAh-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-27" value="Perform Ball Finding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539.6666666666667" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-28" value="Perform Initial Ball Finding (non-DL approach)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-30" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-25" target="JpvIN6KJs6gYNihXucAh-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="sourcePoint" />
+            <mxPoint x="490" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-36" value="Perform Ball Finding (Indoor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CWVhn5QKhwqRxZHIpN0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JpvIN6KJs6gYNihXucAh-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JpvIN6KJs6gYNihXucAh-37" value="Perform Ball Finding by CoreML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="640" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
