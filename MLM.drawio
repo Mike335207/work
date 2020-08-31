@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T07:51:39.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="B1PspL9iocvBvTK_2kia" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-31T07:56:56.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="aJwT9Nq1XvggFFNIJNcO" version="13.6.5" type="github">
   <diagram id="A9fwPorAj4-k2zNvB-i8" name="Page-1">
     <mxGraphModel dx="1148" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         <mxCell id="JpvIN6KJs6gYNihXucAh-25" value="Perform Initial Ball Finding by CoreML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JpvIN6KJs6gYNihXucAh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-27" target="JpvIN6KJs6gYNihXucAh-28" edge="1">
+        <mxCell id="1CWVhn5QKhwqRxZHIpN0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JpvIN6KJs6gYNihXucAh-27" target="1CWVhn5QKhwqRxZHIpN0-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JpvIN6KJs6gYNihXucAh-27" value="Perform Ball Finding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -73,11 +73,11 @@
         </mxCell>
         <mxCell id="JpvIN6KJs6gYNihXucAh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-28" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="539.6666666666667" y="370" as="targetPoint" />
+            <mxPoint x="539.6666666666667" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JpvIN6KJs6gYNihXucAh-28" value="Perform Initial Ball Finding (non-DL approach)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JpvIN6KJs6gYNihXucAh-30" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JpvIN6KJs6gYNihXucAh-25" target="JpvIN6KJs6gYNihXucAh-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -95,6 +95,28 @@
         </mxCell>
         <mxCell id="JpvIN6KJs6gYNihXucAh-37" value="Perform Ball Finding by CoreML" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="640" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1CWVhn5QKhwqRxZHIpN0-4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1CWVhn5QKhwqRxZHIpN0-2">
+          <mxGeometry x="-0.834" relative="1" as="geometry">
+            <mxPoint x="540" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="309" />
+              <mxPoint x="460" y="430" />
+              <mxPoint x="540" y="430" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1CWVhn5QKhwqRxZHIpN0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1CWVhn5QKhwqRxZHIpN0-2" target="JpvIN6KJs6gYNihXucAh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1CWVhn5QKhwqRxZHIpN0-8" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1CWVhn5QKhwqRxZHIpN0-5">
+          <mxGeometry x="-0.619" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1CWVhn5QKhwqRxZHIpN0-2" value="Init Ball Found" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="279" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
