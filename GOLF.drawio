@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T12:08:49.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="iJRN_kQVDL7vmwgjlJr_" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T12:13:59.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="w-lk6uy0tYhVQ0r2plLt" version="14.4.2" type="github">
   <diagram id="ckMNo31Ma1tLkW73L81t" name="Page-1">
-    <mxGraphModel dx="1038" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,11 +269,17 @@
         <mxCell id="ocMIrbZ7oQmUKifu4VhW-23" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="195" y="1840" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-8" value="&lt;div&gt;&lt;b&gt;Fill data:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Motion Sensor Data &lt;/b&gt;{PhoneAccX,&amp;nbsp;PhoneAccY,&amp;nbsp;PhoneAccZ,&amp;nbsp;&amp;nbsp;Barometer}&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;- DeviceModel&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- kMatrix &lt;/b&gt;{Calibration data}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="800" y="140" width="405" height="60" as="geometry" />
+        <mxCell id="-PogmlPKtZPGe_I0HC47-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-8" target="-PogmlPKtZPGe_I0HC47-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-10" value="Fill Image Buffer&amp;amp;TimeStamps" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="880" y="215" width="300" height="40" as="geometry" />
+        <mxCell id="-PogmlPKtZPGe_I0HC47-8" value="&lt;div&gt;&lt;b&gt;Fill data:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Motion Sensor Data &lt;/b&gt;{PhoneAccX,&amp;nbsp;PhoneAccY,&amp;nbsp;PhoneAccZ,&amp;nbsp;&amp;nbsp;Barometer}&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;- DeviceModel&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- kMatrix &lt;/b&gt;{Calibration data}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="762" y="140" width="405" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-10" target="-PogmlPKtZPGe_I0HC47-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-10" value="Fill Image Buffer&amp;amp;TimeStamps" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="814.5" y="215" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" source="-PogmlPKtZPGe_I0HC47-14" target="-PogmlPKtZPGe_I0HC47-16" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -323,10 +329,10 @@
           <mxGeometry x="788" y="1160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-40" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="848" y="1398" width="100" height="40" as="geometry" />
+          <mxGeometry x="843" y="1300" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-41" value="&lt;div&gt;40 frames &lt;br&gt;&lt;/div&gt;&lt;div&gt;with timestamps&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="215" width="180" height="40" as="geometry" />
+          <mxGeometry x="1222" y="215" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="-PogmlPKtZPGe_I0HC47-41" target="-PogmlPKtZPGe_I0HC47-41" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -346,31 +352,49 @@
         <mxCell id="-PogmlPKtZPGe_I0HC47-47" value="&lt;div&gt;to perform calculation, at least 4 balls + &lt;br&gt;&lt;/div&gt;&lt;div&gt;initial ball are needed&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1112" y="940" width="230" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-52">
+        <mxCell id="-PogmlPKtZPGe_I0HC47-52" value="FindInialBall (DL)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="815.5" y="370" width="298" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-54" target="-PogmlPKtZPGe_I0HC47-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-54" target="-PogmlPKtZPGe_I0HC47-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1200" y="372.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="310" />
+              <mxPoint x="800" y="440" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-52" value="FindInialBall (DL)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="882" y="355" width="298" height="35" as="geometry" />
-        </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-54" value="&lt;b&gt;isPerformInitBallFinding&lt;/b&gt;&lt;br&gt;(just supported devices)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="902.5" y="260" width="200" height="80" as="geometry" />
+          <mxGeometry x="864.5" y="270" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-55" value="Data provided by &lt;br&gt;Mobil Side" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1222" y="140" width="180" height="40" as="geometry" />
+          <mxGeometry x="1220" y="150" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-56" value="Waiting for the Ball Speed&lt;br&gt;(from MLM)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="864" y="680" width="277" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-57" value="Waiting for Trigger From MLM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="868" y="10" width="277" height="100" as="geometry" />
+          <mxGeometry x="843" y="-40" width="277" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-58" value="InputRadarData &lt;span style=&quot;font-weight: normal&quot;&gt;&lt;i&gt;{ballSpeed, clubSpeed}&lt;/i&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="800" y="820" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-60" value="Compute Flight Model" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="787.5" y="1110" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-62" value="Generate golfResult.json" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="788" y="1210" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-64" target="-PogmlPKtZPGe_I0HC47-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-64" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="914.5" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-65" value="Trigger Received" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1222" y="80" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
