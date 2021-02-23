@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T12:14:57.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="a7ulg043lcPODkXayu4P" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T12:26:34.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="1LcyXkba_HhGEjsjTAU1" version="14.4.2" type="github">
   <diagram id="ckMNo31Ma1tLkW73L81t" name="Page-1">
     <mxGraphModel dx="1038" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
           <mxGeometry x="260" y="703" width="230" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Z9V7IxoWwoPbSd-97uin-4" value="Exit in case of fail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="512" y="495" width="110" height="20" as="geometry" />
+          <mxGeometry x="1380" y="480" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z9V7IxoWwoPbSd-97uin-5" value="Exit in case of fail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="570" width="110" height="20" as="geometry" />
@@ -305,8 +305,8 @@
         <mxCell id="-PogmlPKtZPGe_I0HC47-20" value="FindInitialBall() &lt;span style=&quot;font-weight: normal&quot;&gt;{in case of no ball from DL}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontStyle=3" vertex="1" parent="1">
           <mxGeometry x="1035.5" y="550" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-22" value="&lt;div&gt;&lt;b&gt;Output data:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;BallTime {valid balls timestamps}&lt;br&gt;&lt;/div&gt;&lt;div&gt;BallObservations {valid balls}&lt;/div&gt;&lt;div&gt;InitBallParameters&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="914.5" y="590" width="200" height="70" as="geometry" />
+        <mxCell id="-PogmlPKtZPGe_I0HC47-22" value="&lt;div&gt;&lt;b&gt;Output data:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;BallTime &lt;i&gt;{valid balls timestamps}&lt;/i&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BallObservations &lt;i&gt;{valid balls}&lt;/i&gt;&lt;/div&gt;&lt;div&gt;InitBallParameters&lt;br&gt;&lt;/div&gt;&lt;div&gt;BallCenterSample&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="914.5" y="590" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="-PogmlPKtZPGe_I0HC47-25" target="-PogmlPKtZPGe_I0HC47-27" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -315,21 +315,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-25" value="validBallTime &amp;gt;= 4 &amp;amp; &lt;br&gt;InitialBallRadius &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="790" y="960" width="205" height="60" as="geometry" />
+          <mxGeometry x="810" y="1070" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="-PogmlPKtZPGe_I0HC47-27" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="893" y="1107" as="targetPoint" />
+            <mxPoint x="913" y="1217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-27" value="Calculate LAngle&amp;amp;LDirection" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="788" y="1040" width="210" height="40" as="geometry" />
+          <mxGeometry x="808" y="1150" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-37" value="Compute Carry&amp;amp;Traces" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="788" y="1160" width="210" height="40" as="geometry" />
+          <mxGeometry x="808" y="1270" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-40" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="843" y="1300" width="100" height="40" as="geometry" />
+          <mxGeometry x="863" y="1410" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-41" value="&lt;div&gt;40 frames &lt;br&gt;&lt;/div&gt;&lt;div&gt;with timestamps&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1222" y="215" width="180" height="40" as="geometry" />
@@ -337,20 +337,20 @@
         <mxCell id="-PogmlPKtZPGe_I0HC47-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="-PogmlPKtZPGe_I0HC47-41" target="-PogmlPKtZPGe_I0HC47-41" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="-PogmlPKtZPGe_I0HC47-44" target="-PogmlPKtZPGe_I0HC47-40" parent="1">
+        <mxCell id="-PogmlPKtZPGe_I0HC47-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-44" target="-PogmlPKtZPGe_I0HC47-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-44" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-mobile-icon-kit/64/Exception.png;align=center;" vertex="1" parent="1">
           <mxGeometry x="1295.5" y="455" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-PogmlPKtZPGe_I0HC47-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="-PogmlPKtZPGe_I0HC47-46" target="-PogmlPKtZPGe_I0HC47-40" parent="1">
+        <mxCell id="-PogmlPKtZPGe_I0HC47-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-46" target="-PogmlPKtZPGe_I0HC47-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-mobile-icon-kit/64/Exception.png" vertex="1" parent="1">
-          <mxGeometry x="1282" y="710" width="60" height="60" as="geometry" />
+          <mxGeometry x="1295.5" y="535" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-47" value="&lt;div&gt;to perform calculation, at least 4 balls + &lt;br&gt;&lt;/div&gt;&lt;div&gt;initial ball are needed&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1112" y="940" width="230" height="87" as="geometry" />
+          <mxGeometry x="1132" y="1050" width="230" height="87" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-52" target="-PogmlPKtZPGe_I0HC47-14">
           <mxGeometry relative="1" as="geometry" />
@@ -376,19 +376,19 @@
           <mxGeometry x="1220" y="150" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-56" value="Waiting for the Ball Speed&lt;br&gt;(from MLM)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="864" y="680" width="277" height="100" as="geometry" />
+          <mxGeometry x="906" y="740" width="277" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-57" value="Waiting for Trigger From MLM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="843" y="-40" width="277" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-58" value="InputRadarData &lt;span style=&quot;font-weight: normal&quot;&gt;&lt;i&gt;{ballSpeed, clubSpeed}&lt;/i&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="800" y="820" width="400" height="30" as="geometry" />
+          <mxGeometry x="842" y="880" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-60" value="Compute Flight Model" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="787.5" y="1110" width="210" height="40" as="geometry" />
+          <mxGeometry x="807.5" y="1220" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-62" value="Generate golfResult.json" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="788" y="1210" width="210" height="40" as="geometry" />
+          <mxGeometry x="808" y="1320" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="-PogmlPKtZPGe_I0HC47-64" target="-PogmlPKtZPGe_I0HC47-8">
           <mxGeometry relative="1" as="geometry" />
@@ -398,6 +398,36 @@
         </mxCell>
         <mxCell id="-PogmlPKtZPGe_I0HC47-65" value="Trigger Received" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="1222" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-77" value="Exit in case of fail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="555" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-78" value="" style="endArrow=classic;html=1;align=center;strokeWidth=3;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" as="sourcePoint" />
+            <mxPoint x="859.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-79" value="" style="endArrow=classic;html=1;strokeWidth=3;align=center;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1014.5" y="720" as="sourcePoint" />
+            <mxPoint x="794.5" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-80" value="" style="endArrow=none;html=1;strokeWidth=3;align=center;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1014" y="720" as="sourcePoint" />
+            <mxPoint x="1013.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-81" value="Send BallCenterSample to MLM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="700" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-PogmlPKtZPGe_I0HC47-82" value="" style="endArrow=classic;html=1;dashed=1;strokeWidth=3;align=center;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="795" as="sourcePoint" />
+            <mxPoint x="920" y="795" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
