@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T07:40:37.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="Y2--tqiZg12BMlblrZ_W" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T12:25:55.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="vZpfSF8RJkmP20_B2Nle" version="14.4.2" type="github">
   <diagram id="A9fwPorAj4-k2zNvB-i8" name="Page-1">
     <mxGraphModel dx="1865" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -372,6 +372,27 @@
         </mxCell>
         <mxCell id="jQMdfJxxGaNir30xUrh0-53" value="Outdoor environment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="390" y="1220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZW0swBByUd4-arZjn88-1" target="YZW0swBByUd4-arZjn88-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZW0swBByUd4-arZjn88-1" target="YZW0swBByUd4-arZjn88-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-1" value="&lt;b&gt;mlm_framework-jni.so&lt;/b&gt;&lt;br&gt;(Wrapper&amp;nbsp; for MLM algo functions)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="165.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZW0swBByUd4-arZjn88-2" target="YZW0swBByUd4-arZjn88-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-2" value="MLM Android App" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="76.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YZW0swBByUd4-arZjn88-4" target="YZW0swBByUd4-arZjn88-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZW0swBByUd4-arZjn88-4" value="&lt;b&gt;mlm_framework.so&lt;/b&gt;&lt;br&gt;(MLM algo on C++)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="250" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
