@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-27T17:33:27.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="iq8C0ZoFgXsBv0TUVBB3" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-27T17:41:46.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.107 Yowser/2.5 Safari/537.36" etag="KgLT1iUWR8Rcddz7Tpt9" version="14.4.2" type="github">
   <diagram id="Cod3GerfNrNgUSHNOhmU" name="Page-1">
     <mxGraphModel dx="1865" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,88 +17,128 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u7wA1UhLNrB0_62OL5z6-5" value="Start new session" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="128" y="50" width="120" height="40" as="geometry" />
+          <mxGeometry x="128" y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u7wA1UhLNrB0_62OL5z6-8" value="Set camera to 60 FPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="32" y="178" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-9" value="Perform Club Detection&lt;br&gt;&lt;b&gt;&lt;i&gt;(if supported)&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u7wA1UhLNrB0_62OL5z6-9" value="Perform Club Detection&lt;br&gt;&lt;b&gt;&lt;i&gt;(if enabled)&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="128" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LaPquhISrTEwAAFqGGU--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7wA1UhLNrB0_62OL5z6-23" target="LaPquhISrTEwAAFqGGU--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u7wA1UhLNrB0_62OL5z6-23" value="Find initial &amp;amp; flying balls&lt;br&gt;by using CoreML&lt;br&gt;(deep-learning approach)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="390" width="162" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="u7wA1UhLNrB0_62OL5z6-38" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="113" y="920" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-40" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="u7wA1UhLNrB0_62OL5z6-39" vertex="1" connectable="0">
-          <mxGeometry x="-0.1753" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-38" value="Return: Computer Vision FAILED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="49" y="1080" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u7wA1UhLNrB0_62OL5z6-48" target="u7wA1UhLNrB0_62OL5z6-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="u7wA1UhLNrB0_62OL5z6-48" target="u7wA1UhLNrB0_62OL5z6-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-48" value="Is Numerical Computations&amp;nbsp;&lt;br&gt;Failed?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1089" width="150" height="81" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="u7wA1UhLNrB0_62OL5z6-49" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="30" y="1150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-49" value="Return: Numerical Computations FAILED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-51" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="477" y="1122" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="u7wA1UhLNrB0_62OL5z6-52" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="1270" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="730" y="1260" />
-              <mxPoint x="520" y="1260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-52" value="Return: status SUCCESS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1169" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-54" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="1123" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="u7wA1UhLNrB0_62OL5z6-55" value="Using default values for&lt;br&gt;back spin regarded to club&lt;br&gt;&amp;nbsp;from Trackman PGA&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1020" width="160" height="50" as="geometry" />
+          <mxGeometry x="130.5" y="590" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LaPquhISrTEwAAFqGGU--4" value="&lt;div&gt;&lt;b&gt;Output data:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;BallTime &lt;i&gt;{valid balls timestamps}&lt;/i&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BallObservations &lt;i&gt;{valid balls}&lt;/i&gt;&lt;/div&gt;&lt;div&gt;InitBallParameters&lt;br&gt;&lt;/div&gt;&lt;div&gt;BallCenterSample&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="90" y="480" width="200" height="80" as="geometry" />
+          <mxGeometry x="111.5" y="690" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LaPquhISrTEwAAFqGGU--5" value="" style="endArrow=classic;html=1;strokeWidth=3;align=center;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="610" as="sourcePoint" />
-            <mxPoint x="-30" y="610" as="targetPoint" />
+            <mxPoint x="210" y="820" as="sourcePoint" />
+            <mxPoint x="-10" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LaPquhISrTEwAAFqGGU--6" value="" style="endArrow=none;html=1;strokeWidth=3;align=center;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="189.5" y="610" as="sourcePoint" />
-            <mxPoint x="189" y="560" as="targetPoint" />
+            <mxPoint x="209.5" y="820" as="sourcePoint" />
+            <mxPoint x="209" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LaPquhISrTEwAAFqGGU--7" value="Send BallCenterSample to MLM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-4.5" y="590" width="180" height="20" as="geometry" />
+          <mxGeometry x="15.5" y="800" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--25" value="Waiting for Trigger From MLM" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="53" y="340" width="277" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--26" value="" style="endArrow=classic;html=1;align=center;strokeWidth=3;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="380" as="sourcePoint" />
+            <mxPoint x="69.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--29" target="LaPquhISrTEwAAFqGGU--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--29" value="&lt;div&gt;&lt;b&gt;Fill data:&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Motion Sensor Data &lt;/b&gt;{PhoneAccX,&amp;nbsp;PhoneAccY,&amp;nbsp;PhoneAccZ,&amp;nbsp;&amp;nbsp;Barometer}&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;- DeviceModel&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- kMatrix &lt;/b&gt;{Calibration data}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="9" y="460" width="405" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--30" target="u7wA1UhLNrB0_62OL5z6-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--30" value="Fill Image Buffer&amp;amp;TimeStamps" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="61.5" y="535" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u7wA1UhLNrB0_62OL5z6-9" target="u7wA1UhLNrB0_62OL5z6-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="340" />
+              <mxPoint x="280" y="340" />
+              <mxPoint x="280" y="240" />
+              <mxPoint x="218" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--36" target="LaPquhISrTEwAAFqGGU--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--36" target="LaPquhISrTEwAAFqGGU--41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--36" value="numOfFlyingBalls &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="131" y="996.5" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;align=center;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--38" target="LaPquhISrTEwAAFqGGU--47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--38" value="Calculate LAngle&amp;amp;LDirection" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="128.5" y="1070" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;align=center;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--40" target="LaPquhISrTEwAAFqGGU--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--40" value="Compute Carry&amp;amp;Traces" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="128.5" y="1190" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--41" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="183.5" y="1310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--42" value="&lt;div&gt;to perform calculation, at least&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 flying ball + &lt;br&gt;&lt;/div&gt;&lt;div&gt;initial ball are needed&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="440" y="996.5" width="230" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--43" value="Waiting for the Ball Speed&lt;br&gt;(from MLM)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="116" y="840" width="277" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;align=center;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--45" target="LaPquhISrTEwAAFqGGU--36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--45" value="InputRadarData &lt;span style=&quot;font-weight: normal&quot;&gt;&lt;i&gt;{ballSpeed, clubSpeed}&lt;/i&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="955" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;align=center;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--47" target="LaPquhISrTEwAAFqGGU--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--47" value="Compute Flight Model" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="128.5" y="1130" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;align=center;" edge="1" parent="1" source="LaPquhISrTEwAAFqGGU--49" target="LaPquhISrTEwAAFqGGU--41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--49" value="Generate golfResult.json" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="128.5" y="1250" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--50" value="" style="endArrow=classic;html=1;dashed=1;strokeWidth=3;align=center;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="895" as="sourcePoint" />
+            <mxPoint x="130" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--51" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="244.5" y="1050" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LaPquhISrTEwAAFqGGU--52" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1000" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
