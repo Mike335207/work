@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T15:07:13.502Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.94 (beta) Yowser/2.5 Safari/537.36" version="14.6.3" etag="vIXY7svVCjCsqhI6ZTyT" type="github"><diagram id="MWl9kh9Pm0hJuljxTCQo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-19T15:11:17.970Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.94 (beta) Yowser/2.5 Safari/537.36" etag="QVthAT3cKuCk2tl5B4qY" version="14.6.3" type="github">
+  <diagram id="MWl9kh9Pm0hJuljxTCQo" name="Page-1">
+    <mxGraphModel dx="1350" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Module 1&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Module 2&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-3" value="Image from scanner (*.tiff)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-4" value="JSON with annotated hide (optional)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
