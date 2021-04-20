@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T08:37:41.981Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.94 (beta) Yowser/2.5 Safari/537.36" etag="nAAjHARGQVMc9Ifkx3tW" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T09:06:54.405Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.94 (beta) Yowser/2.5 Safari/537.36" etag="e2F2TAoiikXS1Yz_0_5k" version="14.6.3" type="github">
   <diagram id="MWl9kh9Pm0hJuljxTCQo" name="Page-1">
     <mxGraphModel dx="1350" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,7 +192,7 @@
             <mxPoint x="2080" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYM-9CI7bVGXZkKYuPRC-54" value="Output unifier&lt;br&gt;(Combination smart-labels with condidences)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-54" value="Output unifier&lt;br&gt;(Combination of smart-labels with condidences)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1850" y="280" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="NYM-9CI7bVGXZkKYuPRC-63" value="Cropped &lt;br&gt;images" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
