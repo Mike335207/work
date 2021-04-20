@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T08:35:52.588Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.94 (beta) Yowser/2.5 Safari/537.36" etag="WMThPSxCZ6iEwXIjLNfc" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T08:36:43.205Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.111 YaBrowser/21.2.1.94 (beta) Yowser/2.5 Safari/537.36" etag="sL-uat688gwe3vyQJF9d" version="14.6.3" type="github">
   <diagram id="MWl9kh9Pm0hJuljxTCQo" name="Page-1">
     <mxGraphModel dx="1350" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -221,6 +221,15 @@
         </mxCell>
         <mxCell id="NYM-9CI7bVGXZkKYuPRC-73" value="Smart labels (*.csv)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1370" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-74" value="Unified smart labels (*.csv)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="300" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-75" value="Unified smart labels (*.csv)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="340" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NYM-9CI7bVGXZkKYuPRC-76" value="Unified smart labels (*.csv)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="380" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
