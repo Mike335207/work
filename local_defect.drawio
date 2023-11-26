@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T18:41:54.372Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1038 (beta) Yowser/2.5 Safari/537.36" etag="duWvXTRtzlWffS-udOOs" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T18:42:40.718Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1038 (beta) Yowser/2.5 Safari/537.36" etag="4S6Oiwr3LMniZqsN4S4c" version="22.1.4" type="github">
   <diagram id="-7LVy4mKygN9nHRtwqhl" name="Page-1">
     <mxGraphModel dx="912" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,14 +192,14 @@
         <mxCell id="OTOQXLl6I3eSlEA0uDQ9-14" value="def_class_module/yolov5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="495" y="770" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-15" value="PROD (CNN):&amp;nbsp;https://gitlab.vit.belwest.com/m.zarechnev/defect_detection_local_deployment/-/tree/defect-local-V2-prod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-15" value="&lt;b&gt;PROD (CNN):&lt;/b&gt;&amp;nbsp;https://gitlab.vit.belwest.com/m.zarechnev/defect_detection_local_deployment/-/tree/defect-local-V2-prod" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="-360" width="650" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-17" value="DEV (CNN):&amp;nbsp;https://gitlab.vit.belwest.com/m.zarechnev/defect_detection_local_deployment/-/tree/defect-local-V2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-17" value="&lt;b&gt;DEV (CNN):&lt;/b&gt;&amp;nbsp;https://gitlab.vit.belwest.com/m.zarechnev/defect_detection_local_deployment/-/tree/defect-local-V2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="-330" width="660" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-18" value="DEV (CV): https://gitlab.vit.belwest.com/m.zarechnev/defect_detection_local_deployment/-/tree/feature/CV-without_Milano" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-300" width="630" height="30" as="geometry" />
+        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-18" value="&lt;b&gt;DEV (CV):&lt;/b&gt; https://gitlab.vit.belwest.com/m.zarechnev/defect_detection_local_deployment/-/tree/feature/CV-without_Milano" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-300" width="680" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
