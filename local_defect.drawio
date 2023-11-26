@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T17:06:43.629Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1038 (beta) Yowser/2.5 Safari/537.36" etag="kXBGXpEJpgyGf7k6VWhe" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T17:08:53.057Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1038 (beta) Yowser/2.5 Safari/537.36" etag="1bL4ZqDjvd7l_ACuGpBd" version="22.1.4" type="github">
   <diagram id="-7LVy4mKygN9nHRtwqhl" name="Page-1">
     <mxGraphModel dx="912" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,6 +161,9 @@
         </mxCell>
         <mxCell id="OTOQXLl6I3eSlEA0uDQ9-1" value="path:str&lt;br&gt;leather_id: int64&lt;br&gt;transform_matrix: array" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTOQXLl6I3eSlEA0uDQ9-2" value="sm_test/L_ID_{leather_id}_{type}_{color}.png" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-65" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
